@@ -6,13 +6,13 @@ A full-stack web application that allows users to create boards, manage tasks, a
 
 Features:-
 ----------------------
-*User Authentication (Login / Signup)
-*Real-time collaboration using Socket.IO
-*Create and manage boards
-*Add, edit, delete tasks
-*Drag and drop tasks between columns
-*Live updates across multiple users
-*Clean and responsive UI
+1)User Authentication (Login / Signup)
+2)Real-time collaboration using Socket.IO
+3)Create and manage boards
+4)Add, edit, delete tasks
+5)Drag and drop tasks between columns
+6)Live updates across multiple users
+7)Clean and responsive UI
 
 
 Tech Stack:-
