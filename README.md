@@ -2,7 +2,7 @@
 
 A full-stack web application that allows users to create boards, manage tasks, and collaborate in real-time.
 
-This project was developed as part of a Full Stack Internship assignment.
+
 
 Features:-
 ----------------------
