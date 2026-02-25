@@ -28,7 +28,9 @@ app.use(cookieParser());
 app.use(arcjetMiddleware);
 
 app.use(cors({
-  origin: "https://real-time-collaboration-gvfg.onrender.com",
+  origin: [
+    "https://real-time-collaboration-sigma.vercel.app"
+  ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE']
 }));
@@ -49,7 +51,10 @@ app.get('/', (req, res) => {
 
 const io = new Server(server, {
   cors: {
-    origin: "https://real-time-collaboration-gvfg.onrender.com",
+    origin: [
+      "https://real-time-collaboration-sigma.vercel.app"
+    ],
+    methods: ["GET", "POST"],
     credentials: true
   }
 });
