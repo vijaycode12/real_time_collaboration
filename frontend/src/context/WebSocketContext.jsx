@@ -7,7 +7,7 @@ const WebSocketProvider = ({ children }) => {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    const s = io("http://localhost:4000", {
+    const s = io("https://real-time-collaboration-gvfg.onrender.com", {
       withCredentials: true
     });
 
